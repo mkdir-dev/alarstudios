@@ -1,0 +1,60 @@
+@import "../../assets/styles/main.scss";
+
+.table {
+  max-width: 900px;
+  width: 100%;
+  margin: 50px auto 0;
+  display: table;
+  padding-bottom: 10px;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  border: 2px solid $skyBlue;
+  border-radius: 10px;
+  background-color: $normalBlue;
+
+  &__thead {
+    @include subtitle;
+  }
+
+  &__thead-th {
+    padding: 10px 0;
+  }
+
+  &__tbody {
+    @include listMainText;
+    background-color: $lightBlue;
+  }
+
+  &__tbody-th {
+    padding: 3px 0 5px;
+    color: $black;
+  }
+
+  &__tbody-th_active {
+    position: relative;
+    background-color: $white;
+  }
+
+  &__input {}
+
+  &__button {
+    @include listMainText;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    border: none;
+    border-radius: 3px;
+    color: $black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    font-family: "TT Norms", Arial, Helvetica, sans-serif;
+    transition: all 0.2s ease-out;
+    background-color: transparent;
+
+    &:hover {
+      text-shadow: 0 0 .65px $gray7, 0 0 .65px
+    }
+  }
+}

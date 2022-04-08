@@ -1,0 +1,16 @@
+@import "../../assets/styles/main.scss";
+
+.app {
+  height: 100vh;
+  background-color: $gray3;
+  overflow-x: hidden;
+  font-family: "TT Norms", Arial, Helvetica, sans-serif;
+}
+
+.main {
+  min-height: calc(100vh - 40px);
+  margin: 20px 30px 20px;
+  overflow-y: hidden;
+  border-radius: 20px;
+  background-color: $white;
+}

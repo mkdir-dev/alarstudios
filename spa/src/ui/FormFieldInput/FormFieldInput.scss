@@ -1,0 +1,35 @@
+@import "../../assets/styles/main.scss";
+
+.form-field-input {
+  @include listMainText;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  color: $darkBlue;
+  font-family: "TT Norms", Arial, Helvetica, sans-serif;
+  text-align: center;
+  border: none;
+  box-sizing: border-box;
+
+  &_disabled {
+    @include listMainText;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    color: $darkBlue;
+    font-family: "TT Norms", Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: none;
+    box-sizing: border-box;
+    background-color: $gray4;
+  }
+}
+
+.form-field-input-err {
+  @include caption;
+  width: 100%;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  color: $normalRed;
+}
