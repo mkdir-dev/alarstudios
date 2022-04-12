@@ -19,6 +19,19 @@ g. Связи с сервером нет, но должны быть placeholder
 h. Требования: CoffeeScript, Backbone.js. Для проверки знаний - лучше частично использовать нативное взаимодействие с DOM, не jQuery. jQuery знают все, а вот getElementById - нет.
 i. Пакет: “исходник” на CoffeeScript и скомпилированный код на JavaScript, или сразу JavaScript, если на нем оригинал.
 
+На чистом JS решение находится: https://mkdir-dev.github.io/alarstudios/spa-js/ , посмотреть код можно https://mkdir-dev.github.io/alarstudios/spa-js/dist/index.html
+Также сделана бэкенд, код находится: https://github.com/mkdir-dev/alarstudios/tree/main/spa-api
+
+Чтобы запустить приложение:
+1) клонировать репо git@github.com:mkdir-dev/alarstudios.git
+2) перейти в папку /spa-api
+3) установить зависимости npm i
+4) запустить бэкенд приложения npm start
+5) перейти по ссылке https://mkdir-dev.github.io/alarstudios/spa-js/dist/index.html
+6) пользоваться телефонным справочником
+
+- - -
+Решение на React
 Код находится по url: https://github.com/mkdir-dev/alarstudios/tree/main/spa
 
 Чтобы запустить приложение:
