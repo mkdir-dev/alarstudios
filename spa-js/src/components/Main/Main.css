@@ -1,0 +1,7 @@
+.main {
+  min-height: calc(100vh - 84px);
+  margin: 20px 30px 20px;
+  overflow-y: hidden;
+  border-radius: 20px;
+  background-color: #fff;
+}

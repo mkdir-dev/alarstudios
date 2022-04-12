@@ -1,0 +1,89 @@
+.table {
+  max-width: 900px;
+  width: 100%;
+  margin: 50px auto 0;
+  display: table;
+  padding-bottom: 10px;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  border: 2px solid #008cff;
+  border-radius: 10px;
+  background-color: #80c5ff;
+}
+
+.table__thead {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;
+}
+
+.table__thead-th {
+  padding: 10px 0;
+}
+
+.table__tbody {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  background-color: #cee9ff;
+}
+
+.table__tbody-th {
+  position: relative;
+  padding: 3px 0 5px;
+  color: #000;
+}
+
+.table__tbody-th_active {
+  position: relative;
+  background-color: #fff;
+}
+
+.table__button {
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  border: none;
+  border-radius: 3px;
+  color: #000;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "TT Norms", Arial, Helvetica, sans-serif;
+  transition: all 0.2s ease-out;
+  background-color: transparent;
+}
+
+.table__button:hover {
+  text-shadow: 0 0 .65px #3a3a39, 0 0 .65px
+}
+
+.table__input {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  color: #005ba9;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  border: none;
+  box-sizing: border-box;
+}
+
+.table__input-err {
+  width: 100%;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #d41d3c;
+}
