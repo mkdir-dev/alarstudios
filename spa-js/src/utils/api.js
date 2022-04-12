@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://localhost:4000/contacts';
+export const BASE_URL = 'http://51.250.6.34:4000/contacts';
 
 export const headers = {
   Accept: 'application/json',
